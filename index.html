@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kart 33 Academy | Escuela de karting</title>
+<meta name="description" content="Escuela de karting para todas las edades: cursos, tandas y cumpleaños en pista.">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="sticky-top">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-asfalto border-bottom border-warning border-3" aria-label="Principal">
+  <div class="container">
+   <a class="navbar-brand d-flex align-items-center" href="#inicio"><img src="img/logo.svg" alt="" width="36" height="36" class="me-2">Kart 33 Academy</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button>
+   <div class="collapse navbar-collapse" id="menu">
+    <ul class="navbar-nav ms-auto align-items-lg-center">
+     <li class="nav-item"><a class="nav-link" href="#servicios">Cursos</a></li>
+     <li class="nav-item"><a class="nav-link" href="#galeria">Pista</a></li>
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Más</a>
+      <ul class="dropdown-menu dropdown-menu-end">
+       <li><a class="dropdown-item" href="#planes">Planes y precios</a></li>
+       <li><a class="dropdown-item" href="#faq">Preguntas frecuentes</a></li>
+       <li><a class="dropdown-item" href="#opiniones">Opiniones</a></li>
+      </ul>
+     </li>
+     <li class="nav-item ms-lg-3"><a class="btn btn-warning btn-sm" href="#contacto">Reserva tu tanda</a></li>
+    </ul>
+   </div>
+  </div>
+ </nav>
+</header>
+
+<main>
+<section id="inicio" class="bg-azul text-white py-5 position-relative">
+ <div class="container">
+  <div class="row align-items-center g-4">
+   <div class="col-md-6">
+    <h1 class="display-4">Aprende a pilotar como un campeón</h1>
+    <p class="lead">Escuela de karting para todas las edades. Técnica de trazada, adelantamientos y mentalidad de carrera, en la pista de Oviedo.</p>
+    <div class="d-flex flex-wrap gap-2">
+     <a href="#planes" class="btn btn-warning btn-lg">Ver planes</a>
+     <a href="#galeria" class="btn btn-outline-light btn-lg">Conocer la pista</a>
+    </div>
+    <p class="d-none d-md-block small mt-4 mb-0 text-white-50">Desde 8 años · Equipo y casco incluidos</p>
+   </div>
+   <div class="col-md-6">
+    <img src="img/hero.svg" class="img-fluid rounded-4 shadow" alt="Kart amarillo con el número 33 sobre la pista" width="800" height="500">
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="servicios" class="py-5">
+ <div class="container">
+  <h2 class="mb-4">Elige cómo quieres correr</h2>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+   <div class="col">
+    <article class="card h-100 shadow border-0 rounded-4">
+     <img src="img/casco.svg" class="card-img-top" alt="Casco amarillo con el número 33">
+     <div class="card-body p-4"><h3 class="h5"><i class="bi bi-person-badge text-primary"></i> Iniciación</h3><p class="card-text">Seguridad, banderas y primeras vueltas con un instructor a tu lado.</p></div>
+    </article>
+   </div>
+   <div class="col">
+    <article class="card h-100 shadow border-0 rounded-4">
+     <img src="img/circuito.svg" class="card-img-top" alt="Trazado del circuito en vista aérea">
+     <div class="card-body p-4"><h3 class="h5"><i class="bi bi-bezier2 text-primary"></i> Técnica de trazada</h3><p class="card-text">Frenada, punto de giro y salida de curva con análisis de tus vueltas.</p></div>
+    </article>
+   </div>
+   <div class="col">
+    <article class="card h-100 shadow border-0 rounded-4">
+     <img src="img/vuelta.svg" class="card-img-top" alt="Gráfico de barras con tiempos por vuelta">
+     <div class="card-body p-4"><h3 class="h5"><i class="bi bi-stopwatch text-primary"></i> Carrera y estrategia</h3><p class="card-text">Salidas, adelantamientos y gestión de neumáticos en mini campeonato.</p></div>
+    </article>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="galeria" class="py-5 bg-light">
+ <div class="container">
+  <nav aria-label="Ruta de navegación"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="#inicio">Inicio</a></li><li class="breadcrumb-item active" aria-current="page">Pista y circuito</li></ol></nav>
+  <h2 class="mb-4">Conoce la pista</h2>
+  <div class="row g-4">
+   <div class="col-lg-7 col-xl-8">
+    <div id="carrusel" class="carousel slide shadow rounded-4 overflow-hidden" data-bs-ride="carousel" aria-label="Galería de la pista">
+     <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+      <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+      <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+     </div>
+     <div class="carousel-inner">
+      <div class="carousel-item active"><img src="img/pista.svg" alt="Recta principal de la pista al amanecer"><div class="carousel-caption"><p class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Recta principal de 180 m</p></div></div>
+      <div class="carousel-item"><img src="img/circuito.svg" alt="Plano del circuito de 1.100 metros"><div class="carousel-caption"><p class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Circuito de 1.100 m</p></div></div>
+      <div class="carousel-item"><img src="img/hero.svg" alt="Kart amarillo en la curva"><div class="carousel-caption"><p class="bg-dark bg-opacity-75 rounded d-inline-block px-3 py-1">Karts de 270 cc</p></div></div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+    </div>
+   </div>
+   <div class="col-lg-5 col-xl-4">
+    <figure class="figure">
+     <img src="img/casco.svg" class="figure-img img-fluid img-thumbnail" alt="Casco del piloto con el 33">
+     <figcaption class="figure-caption">Cascos homologados incluidos.</figcaption>
+    </figure>
+    <ul class="nav nav-tabs" id="info" role="tablist">
+     <li class="nav-item" role="presentation"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#t1" type="button" role="tab" aria-controls="t1" aria-selected="true">Kart</button></li>
+     <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#t2" type="button" role="tab" aria-controls="t2" aria-selected="false">Pista</button></li>
+    </ul>
+    <div class="tab-content border border-top-0 p-3 bg-white rounded-bottom">
+     <div class="tab-pane fade show active" id="t1" role="tabpanel"><p class="mb-0">Motor de 270 cc, frenos hidráulicos y asiento regulable.</p></div>
+     <div class="tab-pane fade" id="t2" role="tabpanel"><p class="mb-0">Asfalto renovado, 9 curvas y zona de boxes cubierta.</p></div>
+    </div>
+   </div>
+  </div>
+  <nav class="mt-4" aria-label="Más fotos"><ul class="pagination justify-content-center mb-0"><li class="page-item disabled"><span class="page-link">Anterior</span></li><li class="page-item active" aria-current="page"><span class="page-link">1</span></li><li class="page-item"><a class="page-link" href="#galeria">2</a></li><li class="page-item"><a class="page-link" href="#galeria">Siguiente</a></li></ul></nav>
+ </div>
+</section>
+
+<section id="planes" class="py-5">
+ <div class="container">
+  <h2 class="mb-4">Planes y precios</h2>
+  <div class="table-responsive shadow rounded-4 border">
+   <table class="table table-bordered text-center align-middle mb-0">
+    <caption class="visually-hidden">Comparativa de planes</caption>
+    <thead class="table-dark"><tr><th scope="col">Incluye</th><th scope="col">Probar</th><th scope="col" class="text-bg-warning">Piloto <span class="badge text-bg-dark">Más elegido</span></th><th scope="col">Competición</th></tr></thead>
+    <tbody>
+     <tr><th scope="row">Precio</th><td>29 €</td><td class="plan-destacado fw-bold">89 €/mes</td><td>159 €/mes</td></tr>
+     <tr><th scope="row">Tandas al mes</th><td>1</td><td class="plan-destacado">4</td><td>8</td></tr>
+     <tr><th scope="row">Instructor</th><td><i class="bi bi-x-lg text-danger" aria-label="No"></i></td><td class="plan-destacado"><i class="bi bi-check-lg text-success" aria-label="Sí"></i></td><td><i class="bi bi-check-lg text-success" aria-label="Sí"></i></td></tr>
+     <tr><th scope="row">Análisis de vuelta</th><td><i class="bi bi-x-lg text-danger" aria-label="No"></i></td><td class="plan-destacado"><i class="bi bi-x-lg text-danger" aria-label="No"></i></td><td><i class="bi bi-check-lg text-success" aria-label="Sí"></i></td></tr>
+    </tbody>
+   </table>
+  </div>
+  <div class="btn-group mt-4" role="group" aria-label="Elegir plan">
+   <a href="#contacto" class="btn btn-outline-primary">Probar</a>
+   <a href="#contacto" class="btn btn-primary">Piloto</a>
+   <a href="#contacto" class="btn btn-outline-primary">Competición</a>
+  </div>
+ </div>
+</section>
+
+<section id="faq" class="py-5 bg-light">
+ <div class="container">
+  <h2 class="mb-4">Preguntas frecuentes</h2>
+  <div class="accordion shadow-sm" id="acordeon">
+   <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1" aria-expanded="true" aria-controls="f1">¿Desde qué edad puedo correr?</button></h3>
+    <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#acordeon"><div class="accordion-body">Desde los 8 años, con kart infantil y monitor.</div></div></div>
+   <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2" aria-expanded="false" aria-controls="f2">¿Necesito experiencia?</button></h3>
+    <div id="f2" class="accordion-collapse collapse" data-bs-parent="#acordeon"><div class="accordion-body">No. El curso de iniciación parte de cero.</div></div></div>
+   <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3" aria-expanded="false" aria-controls="f3">¿Qué debo llevar?</button></h3>
+    <div id="f3" class="accordion-collapse collapse" data-bs-parent="#acordeon"><div class="accordion-body">Calzado cerrado y ropa cómoda. Casco y mono los ponemos nosotros.</div></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="opiniones" class="py-5">
+ <div class="container">
+  <h2 class="mb-4">Opiniones de pilotos</h2>
+  <div class="alert alert-info d-flex align-items-center" role="alert"><i class="bi bi-info-circle me-2"></i>Opiniones de ejemplo creadas para esta actividad.</div>
+  <div class="row g-4">
+   <div class="col-md-4"><blockquote class="border rounded-3 p-3 h-100 shadow-sm mb-0"><p>Bajé dos segundos mi mejor vuelta en un mes.</p><footer class="blockquote-footer mb-1">Lucía M. <span class="badge text-bg-success">Plan Piloto</span></footer></blockquote></div>
+   <div class="col-md-4"><blockquote class="border rounded-3 p-3 h-100 shadow-sm mb-0"><p>Mi hijo de 9 años salió encantado y con mucha seguridad.</p><footer class="blockquote-footer mb-1">Javier P. <span class="badge text-bg-primary">Iniciación</span></footer></blockquote></div>
+   <div class="col-md-4"><blockquote class="border rounded-3 p-3 h-100 shadow-sm mb-0"><p>El análisis de datos marca la diferencia.</p><footer class="blockquote-footer mb-1">Marta R. <span class="badge text-bg-warning">Competición</span></footer></blockquote></div>
+  </div>
+ </div>
+</section>
+
+<section id="contacto" class="py-5 bg-azul text-white">
+ <div class="container">
+  <div class="row justify-content-center">
+   <div class="col-md-10 col-xl-8 col-xxl-6">
+    <h2 class="mb-4">Reserva tu tanda</h2>
+    <form class="row g-3 text-bg-light text-dark p-4 rounded-4 shadow" action="#" method="post">
+     <div class="col-md-6"><label for="nombre" class="form-label">Nombre</label><input type="text" class="form-control" id="nombre" name="nombre" required></div>
+     <div class="col-md-6"><label for="email" class="form-label">Correo electrónico</label><input type="email" class="form-control" id="email" name="email" required></div>
+     <div class="col-md-6"><label for="tel" class="form-label">Teléfono</label><input type="tel" class="form-control" id="tel" name="tel"></div>
+     <div class="col-md-6"><label for="plan" class="form-label">Plan</label><select class="form-select" id="plan" name="plan"><option>Probar</option><option>Piloto</option><option>Competición</option></select></div>
+     <div class="col-md-6"><label for="fecha" class="form-label">Fecha preferida</label><input type="date" class="form-control" id="fecha" name="fecha"></div>
+     <div class="col-md-6"><span class="form-label d-block">Nivel</span>
+      <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="nivel" id="n1" value="nuevo" checked><label class="form-check-label" for="n1">Nuevo</label></div>
+      <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="nivel" id="n2" value="con-experiencia"><label class="form-check-label" for="n2">Con experiencia</label></div></div>
+     <div class="col-12"><label for="msg" class="form-label">Mensaje</label><textarea class="form-control" id="msg" name="msg" rows="3"></textarea></div>
+     <div class="col-12"><div class="form-check"><input class="form-check-input" type="checkbox" id="acepto" required><label class="form-check-label" for="acepto">Acepto el aviso legal</label></div></div>
+     <div class="col-12"><button type="submit" class="btn btn-primary btn-lg">Enviar reserva</button></div>
+    </form>
+   </div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="bg-asfalto text-white-50 py-4">
+ <div class="container-fluid">
+  <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+   <ul class="nav nav-pills">
+    <li class="nav-item"><a class="nav-link text-white" href="#servicios">Cursos</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="#planes">Planes</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+   </ul>
+   <div class="fs-4">
+    <a href="#" class="text-white me-3" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+    <a href="#" class="text-white me-3" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+    <a href="#" class="text-white" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+   </div>
+  </div>
+  <hr>
+  <p class="small mb-1"><strong class="text-white">Aviso legal:</strong> proyecto académico ficticio. Inspirado en el automovilismo español, sin relación con ningún piloto, equipo ni marca real. Textos y opiniones inventados.</p>
+  <p class="small mb-0">Imágenes: ilustraciones SVG propias (carpeta img/). Iconos: Bootstrap Icons (licencia MIT). Framework: Bootstrap 5.3 (licencia MIT).</p>
+ </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

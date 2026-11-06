@@ -1,0 +1,11 @@
+:root{--asfalto:#14181f;--azul:#0a2a66;--amarillo:#ffc107}
+body{font-family:system-ui,"Segoe UI",Roboto,sans-serif}
+h1,h2,.navbar-brand{font-family:"Bahnschrift","Arial Narrow",Impact,sans-serif;font-weight:700;letter-spacing:.01em}
+.bg-asfalto{background-color:var(--asfalto)}
+.bg-azul{background-color:var(--azul)}
+.text-amarillo{color:var(--amarillo)}
+section{scroll-margin-top:70px}
+.carousel-item img{aspect-ratio:16/8;object-fit:cover;width:100%}
+.card-img-top{aspect-ratio:16/9;object-fit:cover}
+.plan-destacado{background-color:#fff8dc}
+:focus-visible{outline:3px solid var(--amarillo);outline-offset:2px}
